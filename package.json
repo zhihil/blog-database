@@ -1,0 +1,36 @@
+{
+  "name": "blog-database",
+  "version": "1.0.0",
+  "description": "The database portion for the blogging application",
+  "main": "index.js",
+  "dependencies": {
+    "knex": "^0.21.2",
+    "pg": "^8.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build:container": "docker build -t blog-database .",
+    "start:container": "docker run -dp 3000:3000 blog-database"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhihil/blog-database.git"
+  },
+  "keywords": [
+    "blogging",
+    "database",
+    "knex",
+    "node",
+    "postgresql",
+    "psql",
+    "pg"
+  ],
+  "author": "zhihil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhihil/blog-database/issues"
+  },
+  "homepage": "https://github.com/zhihil/blog-database#readme"
+}
