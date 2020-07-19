@@ -4,8 +4,11 @@
   "description": "The database portion for the blogging application",
   "main": "index.js",
   "dependencies": {
+    "@types/node": "^14.0.23",
     "knex": "^0.21.2",
-    "pg": "^8.3.0"
+    "pg": "^8.3.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
   },
   "devDependencies": {},
   "scripts": {
